@@ -14,16 +14,8 @@ defined('BASEPATH') or exit('No direct script allowed');
 	</div>
 	<div class="container-fluid">
 		<div class="col-sm-6">
-			<h1 class="text-center">eat quote of the day</h1><br>
-			<blockquote class="text-center">
-				<p>
-					You are what what you eat eats.
-				</p>
-				<footer>
-					Michael Pollan, In Defense of Food: An Eater's Manifesto
-				</footer>
-
-			</blockquote>
+			<h1 class="text-center">Vicha Catering</h1><br>
+			<img width="200" style="display:block;margin:auto;" alt="Brand" src="<?php echo base_url('/asset/img/vischa-logo.png') ?>">
 		</div>
 		<div class="col-sm-6">
 			<?php echo $error; ?>

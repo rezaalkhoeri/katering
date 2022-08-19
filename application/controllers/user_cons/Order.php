@@ -68,7 +68,7 @@ class Order extends CI_Controller
 				$kirim['total_harga'] = $this->cart->total();
 				$this->load->view('user_vw/navbar', $kirim);
 				$this->load->view('user_vw/invoice', $datadiri);
-				git add README.md$this->load->view('user_vw/footer');
+				$this->load->view('user_vw/footer');
 			} else {
 				$this->load->view('user_vw/meta');
 				$this->load->view('user_vw/js');

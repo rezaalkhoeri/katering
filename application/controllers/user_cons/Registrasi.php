@@ -46,7 +46,7 @@ class Registrasi extends CI_Controller
 				$data2 = array(
 					'id_user' => $id_user,
 					'no_telp' => $no_telp,
-					'profile' => 'asset/img/profile.png'
+					'profile' => 'asset/img/no_profile.png'
 				);
 				$this->data->insert_into($data, 'user');
 				$this->data->insert_into($data2, 'user_data');

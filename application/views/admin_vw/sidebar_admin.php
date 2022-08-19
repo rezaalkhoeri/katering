@@ -3,10 +3,10 @@
     <div id="wrapper">
         <!-- wrapper open -->
         <!-- Sidebar -->
-        <div id="sidebar-wrapper">
+        <div id="sidebar-wrapper" style="background-color: #f2a12c;">
             <ul class="sidebar-nav">
-                <div class="text-center admin-profile">
-                    <img style="background-color:#fff;width:70px;height:70px;border:2px solid rgba(255,255,255,0.9)" class="img-circle" src="<?php echo base_url('asset/img/profile.png'); ?>">
+                <div class="text-center admin-profile" style="background-color: #ff5c5b;">
+                    <img style="background-color:#fff;width:100px;border:2px solid rgba(255,255,255,0.9)" class="img-circle" src="<?php echo base_url('asset/img/vischa-logo.png'); ?>">
                     <h4 class="text-uppercase">
                         <?php echo $this->session->userdata('id_user'); ?>
                     </h4>
